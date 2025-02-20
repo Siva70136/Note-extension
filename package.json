@@ -15,13 +15,15 @@
     "template"
   ],
   "scripts": {
-    "dev": "extension dev",
+    "dev": "extension dev ",
     "start": "extension start",
     "build": "extension build"
   },
-  "dependencies": {},
   "devDependencies": {
-    "extension": "latest"
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.1",
+    "extension": "latest",
+    "globals": "^15.15.0"
   },
   "private": true,
   "author": {
