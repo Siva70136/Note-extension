@@ -27,3 +27,6 @@ jobs:
       - name: Lint code
         run: npm run lint
 
+      - name: zip file
+        run: npm run package
+
