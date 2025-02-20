@@ -17,11 +17,11 @@
     "128": "./public/theme.png"
   },
   "permissions": [
+    "activeTab",
     "scripting"
   ],
   "background": {
-    "service_worker": "service-worker.js",
-    "type": "module"
+    "service_worker": "service-worker.js"
   },
   "host_permissions": [
     "http://*/*",
