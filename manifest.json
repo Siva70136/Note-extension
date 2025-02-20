@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest.json",
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Notes",
+  "description": "Note Imp Points",
+  "author": "Siva",
+  "omnibox": {
+    "keyword": "theme"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "./public/theme.png",
+    "48": "./public/theme.png",
+    "128": "./public/theme.png"
+  },
+  "permissions": [
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
